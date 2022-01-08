@@ -1,5 +1,5 @@
 {
-  "name": "rrvideo",
+  "name": "rrvideo-fix-puppeteer",
   "version": "0.2.1",
   "description": "transform rrweb session into video",
   "main": "build/index.js",
