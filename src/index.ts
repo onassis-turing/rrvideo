@@ -90,6 +90,10 @@ class RRvideo {
         headless: this.config.headless,
       });
       this.page = await this.browser.newPage();
+
+      /* DISABLE NAVIGATION TIME OUT - BIG DATA WILL CAUSE THE CONVERSION CRASH */
+      await this.page.setDefaultNavigationTimeout(0); 
+
       await this.page.goto("about:blank");
 
       await this.page.exposeFunction("onReplayStart", () => {
