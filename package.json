@@ -1,6 +1,6 @@
 {
   "name": "@hop-tran/rrvideo-fix-puppeteer",
-  "version": "0.2.3",
+  "version": "0.2.5",
   "description": "transform rrweb session into video",
   "main": "build/index.js",
   "bin": {

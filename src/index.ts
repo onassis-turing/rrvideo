@@ -95,8 +95,8 @@ class RRvideo {
       
       this.page = await this.browser.newPage();
 
-      /* DISABLE NAVIGATION TIME OUT - BIG DATA WILL CAUSE THE CONVERSION CRASH */
-      await this.page.setDefaultNavigationTimeout(0); 
+      /* DISABLE NAVIGATION TIME OUT      
+      await this.page.setDefaultNavigationTimeout(0); */ 
 
       await this.page.goto("about:blank");
 
