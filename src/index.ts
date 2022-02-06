@@ -88,7 +88,7 @@ class RRvideo {
     try {
       this.browser = await puppeteer.launch({
         headless: this.config.headless,
-        args: ['--disable-dev-shm-usage', '--no-sandbox', '--disable-setuid-sandbox']
+        args: ['--disable-dev-shm-usage', '--no-sandbox', '--disable-setuid-sandbox', '--shm-size=2gb']
         /* DISABLE SANDBOX:
         CHANGE USER DOESN'T WORKS 'Failed to move to new namespace:' */
       });
