@@ -142,6 +142,17 @@ class RRvideo {
       "-i",
       "-",
       // output
+      "-an",
+      "-threads",
+      "4",
+      "-vcodec",
+      "libx264",
+      "-crf",
+      "27",
+      "-preset",
+      "ultrafast",
+      "-speed",
+      "8",
       "-y",
       this.config.output,
     ];
