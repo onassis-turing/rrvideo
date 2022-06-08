@@ -141,6 +141,8 @@ class RRvideo {
       "image2pipe",
       "-i",
       "-",
+      "-pix_fmt",
+      "yuv420p",
       // output
       "-an",
       "-threads",
