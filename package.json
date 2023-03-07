@@ -21,7 +21,7 @@
     "@types/puppeteer": "^5.4.4",
     "minimist": "^1.2.5",
     "puppeteer": "^10.2.0",
-    "rrweb-player": "^0.7.4",
+    "rrweb-player": "^0.7.11",
     "typescript": "^4.0.5"
   },
   "devDependencies": {},
