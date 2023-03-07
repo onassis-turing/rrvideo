@@ -153,6 +153,8 @@ class RRvideo {
       "27",
       "-preset",
       "ultrafast",
+      "-speed",
+      "8",
       "-y",
       this.config.output,
     ];
