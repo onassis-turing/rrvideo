@@ -96,7 +96,7 @@ class RRvideo {
       this.page = await this.browser.newPage();
 
       /* DISABLE NAVIGATION TIME OUT    */
-      await this.page.setDefaultNavigationTimeout(0);
+      this.page.setDefaultNavigationTimeout(0);
 
       await this.page.goto("about:blank");
 
@@ -153,8 +153,6 @@ class RRvideo {
       "27",
       "-preset",
       "ultrafast",
-      "-speed",
-      "8",
       "-y",
       this.config.output,
     ];
