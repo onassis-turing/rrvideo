@@ -92,11 +92,11 @@ class RRvideo {
         /* DISABLE SANDBOX:
         CHANGE USER DOESN'T WORKS 'Failed to move to new namespace:' */
       });
-      
+
       this.page = await this.browser.newPage();
 
-      /* DISABLE NAVIGATION TIME OUT      
-      await this.page.setDefaultNavigationTimeout(0); */ 
+      /* DISABLE NAVIGATION TIME OUT    */
+      await this.page.setDefaultNavigationTimeout(0);
 
       await this.page.goto("about:blank");
 
